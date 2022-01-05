@@ -5,8 +5,9 @@ import GifExpertApp from './GifExpertApp';
 
 import './index.css';
 
+const defaultCategories = ['Rick and Morty'];
 
 ReactDOM.render(
-    <GifExpertApp />,
+    <GifExpertApp defaultCategories={defaultCategories}/>,
   document.getElementById('root')
 );
